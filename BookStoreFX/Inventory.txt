@@ -1,17 +1,15 @@
-The Alchemist , 19
+The Alchemist , 18
 The Lean Startup , 30
-The Design of Everyday Things , 45
+The Design of Everyday Things , 44
 The 7 Habits of Highly Effective People , 0
 The Power of Now , 1
-The Art of War , 0
+The Art of War , 2
 The Hitchhiker's Guide to the Galaxy , 32
 The Catcher in the Rye , 22
-The Great Gatsby , 99
+The Great Gatsby , 98
 To Kill a Mockingbird , 19
-akdm , 20
-Test , 1
-Test , 1
-Test , 1
-Test , 1
-Test , 1
-Test , 1
+Murder on the Orient Express , 10
+1984 , 10
+Pride and Prejudice , 10
+The Hobbit , 10
+Harry Potter and the Philosopher's Stone , 10

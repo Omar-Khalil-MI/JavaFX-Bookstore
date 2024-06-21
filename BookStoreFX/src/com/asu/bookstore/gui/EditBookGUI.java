@@ -68,10 +68,16 @@ public class EditBookGUI {
                 || price.isEmpty()|| category.isEmpty()|| isbn.isEmpty()|| amount.isBlank())
             HelperGUI.get_ResultScene(false, "Please Fill All Fields!");
         else {
-            BookModel updated = new BookModel(name, author, publisher,
+            try {
+                BookModel updated = new BookModel(name, author, publisher,
                     Double.parseDouble(price), category, isbn);
-            InventoryModel inv = new InventoryModel(name, Integer.parseInt(amount));
-            updated.editBook(book, inv);
+                InventoryModel inv = new InventoryModel(name, Integer.parseInt(amount));
+                updated.editBook(book, inv);
+                HomeGUI.get_HomeScene();
+                HelperGUI.WarningStage("Data Updated Successfully!");
+            } catch (Exception e) {
+                HelperGUI.get_ResultScene(false, "Amount and Price Must Be Numeric!");
+            }
         }
     }
     //Stage edit book scene

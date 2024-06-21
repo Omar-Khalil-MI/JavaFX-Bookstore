@@ -25,7 +25,7 @@ public class AddBookGUI {
                     Double.parseDouble(price), category, isbn);
                 InventoryModel i = new InventoryModel(name, Integer.parseInt(amount));
                 boolean valid = true;
-                String message = "Data Updated Successfully!";
+                String message = "Data Added Successfully!";
                 if (isbn.length() != 13 ) {
                     valid = false;
                     message = "Invalid ISBN!";

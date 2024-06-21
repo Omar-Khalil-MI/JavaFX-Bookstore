@@ -61,8 +61,8 @@ public class SearchBookGUI {
                     && ((book.getName().toLowerCase()).contains(s)))
                 HomeGUI.printBook(book, flowPane);
         }
-        
+        if (flowPane.getChildren().isEmpty()) 
+            flowPane.getChildren().add(HelperGUI.createLabel("No Books Found!"));
         return flowPane;    
     }
-    
 }
